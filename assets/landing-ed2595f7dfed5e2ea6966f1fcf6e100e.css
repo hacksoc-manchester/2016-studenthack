@@ -72,7 +72,7 @@
   height: 100%;
   padding: 17px 0;
   opacity: 1;
-  background: url(/assets/trailer/text-transparent-e388c234c2993d703922802d711f5472.png) no-repeat center center;
+  background: url(trailer/text-transparent-e388c234c2993d703922802d711f5472.png) no-repeat center center;
   background-size: 60% auto;
 }
 /* line 107, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
@@ -191,7 +191,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  background: url(/assets/landing/dotgrain-83dfa0e2a27a1f63f84f27709f8518f0.gif) repeat;
+  background: url(landing/dotgrain-83dfa0e2a27a1f63f84f27709f8518f0.gif) repeat;
   opacity: 0.15;
 }
 /* line 215, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
@@ -206,7 +206,7 @@
 }
 /* line 226, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
 .landing .main .overlay a.logo {
-  background: url(/assets/trailer/logo-new-stars-55904a437f7252f05668b0572e642f87.png) no-repeat;
+  background: url(trailer/logo-new-stars-55904a437f7252f05668b0572e642f87.png) no-repeat;
   background-size: 151px 151px;
   width: 151px;
   height: 151px;
@@ -375,7 +375,7 @@
 @media (min-width: 1024px) {
   /* line 354, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
   .landing section#about {
-    background-image: url(/assets/trailer/section-about-1015b15e89ad5876001d20c854d18dfe.png);
+    background-image: url(trailer/section-about-1015b15e89ad5876001d20c854d18dfe.png);
     background-repeat: repeat-y;
     background-position: center right;
     background-size: auto 150%;
@@ -456,7 +456,7 @@
   top: 26px;
   left: 0;
   display: inline-block;
-  background: url(/assets/videos/play-38ce45751c38784b8f62568fac910f06.png) no-repeat center center;
+  background: url(videos/play-38ce45751c38784b8f62568fac910f06.png) no-repeat center center;
   background-size: 20px 20px;
   width: 100%;
   height: 20px;
