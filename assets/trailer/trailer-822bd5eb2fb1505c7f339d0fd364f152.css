@@ -5,7 +5,7 @@ html, body {
 
 /* line 5, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/trailer/trailer.css.scss */
 body.trailer {
-  background: url(/assets/trailer/square-91e0838520bf151d6d11016718612ac8.png) #333;
+  background: url(trailer/square-91e0838520bf151d6d11016718612ac8.png) #333;
   background-position: center center;
   background-size: auto 75%;
   font-family: 'Menlo', 'Helvetica Neue', 'Arial', 'Verdana';
@@ -21,7 +21,7 @@ body.trailer #head {
 /* line 18, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/trailer/trailer.css.scss */
 body.trailer #logo {
   display: inline-block;
-  background: url(/assets/trailer/logo-alt-049b5c145db513d44fb53c03d608ca31.png) center center no-repeat;
+  background: url(trailer/logo-alt-049b5c145db513d44fb53c03d608ca31.png) center center no-repeat;
   background-size: 180px 180px;
   width: 100%;
   height: 100%;
