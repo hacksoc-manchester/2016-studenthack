@@ -1,0 +1,128 @@
+/* line 1, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/trailer/trailer.css.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 5, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/trailer/trailer.css.scss */
+body.trailer {
+  background: url(/assets/trailer/square-91e0838520bf151d6d11016718612ac8.png) #333;
+  background-position: center center;
+  background-size: auto 75%;
+  font-family: 'Menlo', 'Helvetica Neue', 'Arial', 'Verdana';
+  color: #000;
+  position: relative;
+}
+
+/* line 14, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/trailer/trailer.css.scss */
+body.trailer #head {
+  text-align: center;
+}
+
+/* line 18, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/trailer/trailer.css.scss */
+body.trailer #logo {
+  display: inline-block;
+  background: url(/assets/trailer/logo-alt-049b5c145db513d44fb53c03d608ca31.png) center center no-repeat;
+  background-size: 180px 180px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  position: relative;
+  z-index: 25;
+}
+
+/* line 29, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/trailer/trailer.css.scss */
+body.trailer #fade-in-pre {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+/* line 40, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/trailer/trailer.css.scss */
+body.trailer #fade-in {
+  display: block;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  background-size: 100% 100%;
+  z-index: 15;
+}
+
+/* line 54, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/trailer/trailer.css.scss */
+body.trailer h3 {
+  font-size: 23px;
+  letter-spacing: -2px;
+  color: #fff;
+  opacity: 0;
+  display: inline-block;
+  padding: 10px;
+  background: #168ede;
+  position: relative;
+  z-index: 29;
+  top: 65%;
+}
+/* line 66, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/trailer/trailer.css.scss */
+body.trailer h3 a {
+  color: #333;
+  font-weight: bold;
+}
+/* line 70, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/trailer/trailer.css.scss */
+body.trailer h3 a:hover {
+  text-decoration: underline;
+}
+/* line 73, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/trailer/trailer.css.scss */
+body.trailer h3 em {
+  font-style: italic;
+}
+/* line 77, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/trailer/trailer.css.scss */
+body.trailer h3 strong {
+  font-weight: bold;
+  color: #fff;
+}
+/* line 82, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/trailer/trailer.css.scss */
+body.trailer h3 form {
+  padding-top: 20px;
+  display: block;
+}
+/* line 86, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/trailer/trailer.css.scss */
+body.trailer h3 form input {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+  min-width: 300px;
+  border: 0;
+  background: #333;
+  color: #fff;
+}
+/* line 96, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/trailer/trailer.css.scss */
+body.trailer h3 form button {
+  font-size: 16px;
+  padding: 10px;
+  border: 0;
+  color: #168ede;
+  background: #fff;
+  display: inline-block;
+  font-weight: bold;
+}
+
+/* line 108, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/trailer/trailer.css.scss */
+body.trailer #trailer {
+  text-align: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 90%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}

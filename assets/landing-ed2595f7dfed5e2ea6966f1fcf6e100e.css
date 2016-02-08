@@ -1,0 +1,622 @@
+/* line 37, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+::selection {
+  background: #168EDE;
+  color: white;
+}
+
+/* line 42, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+::-moz-selection {
+  background: #168EDE;
+  color: white;
+}
+
+/* line 47, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+::-webkit-selection {
+  background: #168EDE;
+  color: white;
+}
+
+/* line 52, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.clear {
+  clear: both;
+  float: none;
+}
+
+/* line 57, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing {
+  font-family: 'filson-pro', 'Menlo', 'Helvetica Neue', 'Arial', 'Verdana';
+  line-height: auto;
+  /* Start SMINT */
+  /* End SMINT */
+}
+/* line 63, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing .menu {
+  min-height: 50px;
+  max-height: 200px;
+  z-index: 1000;
+  width: 100%;
+  background: #168EDE;
+}
+@media (max-width: 768px) and (orientation: portrait) {
+  /* line 63, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+  .landing .menu {
+    display: none;
+  }
+}
+/* line 74, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing .menu .inner {
+  padding: 0;
+  font-weight: 400;
+  margin: 0 auto;
+}
+/* line 80, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing .menu a:hover {
+  background: #1783c7;
+}
+/* line 84, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing .menu .logo {
+  display: block;
+  float: left;
+  position: relative;
+  width: 160px;
+  height: 50px;
+  padding: 0;
+}
+/* line 92, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing .menu .logo span {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 17px 0;
+  opacity: 1;
+  background: url(/assets/trailer/text-transparent-e388c234c2993d703922802d711f5472.png) no-repeat center center;
+  background-size: 60% auto;
+}
+/* line 107, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing .menu .menuItem {
+  display: block;
+  width: 12.5%;
+  width: calc(100% / 7);
+  min-width: 100px;
+  float: left;
+  margin: 0;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 17px 0 18px;
+  text-align: center;
+  color: #fff;
+}
+@media (max-width: 968px) {
+  /* line 107, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+  .landing .menu .menuItem {
+    width: 14.2%;
+    width: calc(100% / 7);
+  }
+}
+/* line 122, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing .menu .menuItem.logo {
+  min-width: 150px;
+}
+@media (max-width: 968px) {
+  /* line 122, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+  .landing .menu .menuItem.logo {
+    display: none;
+  }
+}
+/* line 127, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing .menu .menuItem.active {
+  background: #165EDE;
+  font-weight: bold;
+}
+/* line 132, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing .menu .menuItem.end {
+  margin: 0;
+}
+/* line 140, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing .greyscale {
+  background-blend-mode: luminosity;
+  filter: url("data:image/svg+xml;utf8,&lt;svg xmlns='http://www.w3.org/2000/svg'&gt;&lt;filter id='grayscale'&gt;&lt;feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/&gt;&lt;/filter&gt;&lt;/svg&gt;#grayscale");
+  filter: gray;
+  -webkit-filter: grayscale(100%);
+}
+/* line 147, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing strong {
+  font-weight: bold;
+}
+/* line 151, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing .big {
+  font-family: 'filson-pro', 'Helvetica Neue', 'Menlo', 'Arial';
+}
+/* line 155, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing .main {
+  width: 100%;
+  height: 100%;
+  background: #000;
+  position: relative;
+  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+@media (max-width: 768px) and (orientation: portrait) {
+  /* line 155, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+  .landing .main {
+    height: 100%;
+  }
+}
+@media (max-width: 768px) and (orientation: landscape) {
+  /* line 155, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+  .landing .main {
+    height: 175%;
+  }
+}
+/* line 172, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing .main video {
+  background: #000;
+  width: auto;
+  height: 100%;
+  opacity: 0.5;
+  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+/* line 183, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing .main .border {
+  width: 100%;
+  height: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 21;
+  background: #168ede;
+  font-size: 13px;
+  padding-top: 8px;
+  text-align: center;
+  color: #fff;
+}
+/* line 199, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing .main .border.with-text {
+  height: 30px;
+}
+/* line 200, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing .main .border em {
+  font-style: italic;
+}
+/* line 203, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing .main .grain {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(/assets/landing/dotgrain-83dfa0e2a27a1f63f84f27709f8518f0.gif) repeat;
+  opacity: 0.15;
+}
+/* line 215, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing .main .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  text-align: center;
+}
+/* line 226, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing .main .overlay a.logo {
+  background: url(/assets/trailer/logo-new-stars-55904a437f7252f05668b0572e642f87.png) no-repeat;
+  background-size: 151px 151px;
+  width: 151px;
+  height: 151px;
+  margin-top: 75px;
+  display: inline-block;
+}
+@media (max-width: 768px) and (orientation: portrait) {
+  /* line 226, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+  .landing .main .overlay a.logo {
+    background-size: 100px 100px;
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+  }
+}
+/* line 243, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing .main .overlay .lower-half {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 50%;
+}
+@media (max-width: 768px) and (orientation: portrait) {
+  /* line 243, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+  .landing .main .overlay .lower-half {
+    top: 40%;
+    height: 60%;
+  }
+}
+/* line 256, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing .main .overlay .scroll-down {
+  position: absolute;
+  top: 95%;
+  left: 25%;
+  width: 50%;
+  height: 5%;
+  display: inline-block;
+  text-align: center;
+  font-size: 12px;
+}
+/* line 265, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing .main .overlay .scroll-down a {
+  color: rgba(255, 255, 255, 0.75);
+}
+/* line 266, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing .main .overlay .scroll-down a:hover, .landing .main .overlay .scroll-down a:visited, .landing .main .overlay .scroll-down a:focus {
+  text-decoration: none;
+}
+/* line 269, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing .main .overlay .call-to-actions {
+  margin-top: 80px;
+}
+/* line 272, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing .main .overlay .call-to-actions li {
+  display: inline-block;
+}
+@media (max-width: 768px) and (orientation: portrait) {
+  /* line 272, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+  .landing .main .overlay .call-to-actions li {
+    display: block;
+    width: 100%;
+    margin-bottom: 1px;
+  }
+}
+/* line 281, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing .main .overlay .call-to-actions li a {
+  display: block;
+  position: relative;
+  padding: 24px;
+  font-size: 24px;
+  background: #168ede;
+}
+@media (min-width: 1024px) {
+  /* line 281, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+  .landing .main .overlay .call-to-actions li a {
+    border-bottom: 4px solid #165ede;
+  }
+}
+/* line 289, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing .main .overlay .call-to-actions li a:hover {
+  background: #165ede;
+}
+@media (min-width: 1024px) {
+  /* line 289, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+  .landing .main .overlay .call-to-actions li a:hover {
+    border-bottom: 0;
+    top: 4px;
+  }
+}
+@media (max-width: 768px) and (orientation: portrait) {
+  /* line 281, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+  .landing .main .overlay .call-to-actions li a {
+    padding: 10px;
+    font-size: 18px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
+  /* line 281, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+  .landing .main .overlay .call-to-actions li a {
+    padding: 18px;
+    font-size: 18px;
+  }
+}
+@media (max-width: 768px) and (orientation: portrait) {
+  /* line 269, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+  .landing .main .overlay .call-to-actions {
+    margin-top: 50px;
+  }
+}
+/* line 310, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing .main .overlay .call-to-actions a, .landing .main .overlay .call-to-actions a:link, .landing .main .overlay .call-to-actions a:hover, .landing .main .overlay .call-to-actions a:visited, .landing .main .overlay .call-to-actions a:focus {
+  text-decoration: none;
+  color: #fff;
+}
+/* line 313, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing .main .overlay h3 {
+  margin-top: 0px;
+  font-size: 40px;
+  letter-spacing: 0px;
+  font-weight: 200;
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 60px;
+}
+/* line 321, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing .main .overlay h3 span {
+  color: #168ede;
+  border: 2px solid #168ede;
+  padding: 0 5px;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+@media (max-width: 768px) and (orientation: portrait) {
+  /* line 313, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+  .landing .main .overlay h3 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  /* line 333, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+  .landing .main .overlay h3 br {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
+  /* line 313, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+  .landing .main .overlay h3 {
+    font-size: 30px;
+  }
+}
+/* line 341, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing .main .overlay h5 {
+  margin-top: 25px;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 16px;
+}
+@media (max-width: 768px) and (orientation: portrait) {
+  /* line 341, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+  .landing .main .overlay h5 {
+    font-size: 14px;
+  }
+}
+/* line 354, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing section#about {
+  background-color: #0d0d0d;
+}
+@media (min-width: 1024px) {
+  /* line 354, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+  .landing section#about {
+    background-image: url(/assets/trailer/section-about-1015b15e89ad5876001d20c854d18dfe.png);
+    background-repeat: repeat-y;
+    background-position: center right;
+    background-size: auto 150%;
+    background-attachment: fixed;
+  }
+}
+/* line 365, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing section#about .section-title h3 {
+  background: transparent;
+  color: #fff;
+}
+/* line 370, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing section#about .section-text p {
+  color: #fff;
+}
+/* line 375, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing section {
+  background-color: #168ede;
+}
+@media (min-width: 1024px) {
+  /* line 375, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+  .landing section {
+    background-color: #168EDE;
+    background-repeat: repeat-y;
+    background-position: center center;
+    background-size: 100% auto;
+    background-attachment: fixed;
+  }
+}
+/* line 389, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing section .section-text p {
+  color: #fff;
+}
+/* line 393, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing section .section-text p a {
+  color: inherit;
+  text-decoration: underline;
+}
+/* line 399, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing section ul.videos {
+  display: block;
+  width: 100%;
+  height: 73px;
+  float: none;
+  clear: both;
+}
+/* line 406, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing section ul.videos.hackathons li a img {
+  border-color: #168ede;
+}
+/* line 410, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing section ul.videos.inspiration li a img {
+  border-color: orange;
+}
+/* line 414, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing section ul.videos li {
+  float: left;
+  width: calc(100% / 3);
+  height: 73px;
+  text-align: center;
+}
+/* line 420, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing section ul.videos li a {
+  display: inline-block;
+  background: #000;
+  width: 97px;
+  height: 73px;
+  position: relative;
+  opacity: 0.6;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
+/* line 431, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing section ul.videos li a:after {
+  content: "";
+  position: absolute;
+  top: 26px;
+  left: 0;
+  display: inline-block;
+  background: url(/assets/videos/play-38ce45751c38784b8f62568fac910f06.png) no-repeat center center;
+  background-size: 20px 20px;
+  width: 100%;
+  height: 20px;
+  z-index: 100;
+}
+/* line 444, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing section ul.videos li a:hover {
+  opacity: 1;
+}
+/* line 449, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing section ul.videos li img {
+  display: inline-block;
+  position: relative;
+  width: 97px;
+  height: 73px;
+  border: 1px solid #fff;
+}
+/* line 457, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing section ul.videos li, .landing section ul.videos li a, .landing section ul.videos li img {
+  border-radius: 10px;
+  -o-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+}
+/* line 480, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing section#tickets .section-text {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+@media (min-width: 1024px) {
+  /* line 486, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+  .landing section#tickets .section-text:not(.below-title) {
+    padding-left: 30px;
+  }
+}
+/* line 491, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing section#tickets .faq {
+  margin-top: 15px;
+  background: #fff;
+  padding: 10px;
+}
+.landing section#tickets .faq p {
+  color: #168ede;
+}
+/* line 496, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing section#tickets .faq p:first-child:before {
+  content: "Q: ";
+}
+/* line 497, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing section#tickets .faq p:last-child:before {
+  content: "A: ";
+}
+/* line 499, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing section#tickets .faq p:first-child {
+  padding: 0;
+  font-weight: bold;
+}
+/* line 504, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing section#tickets .faq p:last-child {
+  padding-top: 5px;
+}
+/* line 510, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing section {
+  min-height: 500px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+/* line 513, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing section .section-title {
+  position: relative;
+  height: 100px;
+}
+/* line 517, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing section .section-title.with-line:before {
+  position: absolute;
+  top: 70%;
+  display: block;
+  content: "";
+  width: 100%;
+  height: 3px;
+  background: #168EDE;
+}
+/* line 527, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing section .section-title h3 {
+  position: absolute;
+  top: 34%;
+  font-size: 42px;
+  padding: 15px 40px;
+  background: #87C9F5;
+  color: #168ede;
+}
+/* line 537, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing section hr {
+  opacity: 0.2;
+}
+/* line 541, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing section .section-text {
+  position: relative;
+  display: inline-block;
+}
+/* line 545, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing section .section-text.below-title {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+@media (min-width: 1024px) {
+  /* line 551, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+  .landing section .section-text.right-of-last {
+    display: inline-block;
+    vertical-align: top;
+  }
+  /* line 556, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+  .landing section .section-text.line-on-left {
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+  }
+  /* line 560, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+  .landing section .section-text.line-on-right {
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+  }
+}
+/* line 565, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing section .section-text.compressed {
+  width: 100%;
+}
+@media (min-width: 1024px) {
+  /* line 565, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+  .landing section .section-text.compressed {
+    width: 400px;
+  }
+}
+/* line 571, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing section .section-text p {
+  padding-top: 15px;
+  font-size: 16px;
+  line-height: 19px;
+}
+/* line 576, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing section .section-text p.large {
+  font-size: 20px;
+  line-height: 25px;
+}
+/* line 577, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing section .section-text p.extra-large {
+  font-size: 25px;
+  line-height: 30px;
+}
+/* line 578, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing section .section-text p.no-top-padding {
+  padding-top: 0;
+}
+/* line 582, /Users/bilawalhameed/Sites/studenthack/app/assets/stylesheets/landing.scss */
+.landing section .section-end {
+  width: 100%;
+  height: 70px;
+}
+.landing footer {
+  padding: 20px;
+  background: #fff;
+}
+.landing footer p {
+  color: #168ede;
+  font-size: 19px;
+  text-align: center;
+}
