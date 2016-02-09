@@ -2,9 +2,11 @@
 <head>
 
 	<title>StudentHack IV</title>
+	<meta name="theme-color" content="#0AF">
 
 	<meta http-equiv="robots" content="all" />
 	<meta http-equiv="description" value="A student-run hackathon ran in Manchester. Next edition on 4-6 March 2016." />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 	<meta name="format-detection" content="telephone=no">
@@ -17,7 +19,17 @@
 	<link rel="stylesheet" media="all" href="./assets/reset-a75a8c3e075f55e66a98dafbdd0918a0.css" />
 	<link rel="stylesheet" media="all" href="./assets/trailer/trailer-822bd5eb2fb1505c7f339d0fd364f152.css" />
 
-  <meta name="csrf-param" content="authenticity_token" />
+
+
+	<meta property="og:title" content="StudentHack - #learn #build #share, 4-6 March 2016."/>
+	<meta property="og:®type" content="website"/>
+	<meta property="og:url" content="http://studenthack.com"/>
+	<meta property="og:image" content="./assets/trailer/logo-new-stars-55904a437f7252f05668b0572e642f87.png"/>
+	<meta property="og:description"
+		  content="StudentHack is a 36 hour programming event in Manchester for students by students on 4-6 December 2016."/>
+
+
+	<meta name="csrf-param" content="authenticity_token" />
 	<meta name="csrf-token" content="dhedNLIujiNRaScAV8rnhJdAtbHuD3EnVN4+/x3T94d4K/lrtDpBZkKA6lmcTjKGbCvLkZUe1w/kdQJwEP5Wgg==" />
 
 </head>
@@ -34,7 +46,7 @@
 		<!-- Grain & border -->
 		<div class="grain"></div>
 		<div class="border"></div>
-		
+
 		<!-- div class="border with-text">
 			<p>Hi world</p>
 		</div -->
@@ -44,7 +56,7 @@
 			<h5>4-6 March 2016 &middot; Under 18's & Students &middot; Manchester, England</h5>
 
 			<div class="lower-half">
-				<h3 class="big">The <span>original epic</span> student hackathon <br />& we're making it more accessible than ever.</h3>
+				<h3 class="big">The <span>original epic</span> student hackathon in Manchester <br />& we're making it more accessible than ever.</h3>
 
 				<ul class="call-to-actions">
 					<li><a href="#tickets">Get Tickets</a></li>
@@ -77,15 +89,14 @@
 			</div>
 
 			<div class='section-text below-title compressed'>
-				<p class='large'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+				<p class='large'>StudentHack is a the original student hackathon in Manchester,
+                    where students come together, team up and collaborate to build cool.</p>
 
 				<hr />
 
-				<p class="no-top-padding">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+				<p class="no-top-padding">This year we are aiming to make it more accessible than ever,
+                    we opened up to U18 to join us, organising coaches to cities with enough signups,
+                    and we have a <a href="http://goo.gl/forms/kHdFohZEWU" target="_blank">scholarships</a>  available if you REALLY need them.</p>
 			</div>
 
 			<div class='section-end'></div>
@@ -177,10 +188,11 @@
 
 				<hr />
 
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat.</p>
+				<p>We will put on coaches if there are enough people (40-50) needing return transport to Manchester.
+
+					Alternatively if really want to come but can't afford the trip,
+					we have a limited <a href="http://goo.gl/forms/kHdFohZEWU" target="_blank">scholarships</a> available if you REALLY need them.
+				</p>
 
 				<p>Have any questions? <a href="mailto:hello@studenthack.com">Drop us a line</a>.</p>
 			</div>
@@ -192,19 +204,29 @@
 
 				<div class="faq">
 					<p>Are tickets free?</p>
-					<p>Yes. They are 100% free.</p>
+					<p>Yes. They are 100% free!</p>
 				</div>
 
 				<div class="faq">
 					<p>Who can get a ticket?</p>
-					<p>Enrolled students or students who graduated in the last 12 months.</p>
+					<p>Enrolled students or students who graduated in the last 12 months, with passion for technology (mandatory).</p>
 				</div>
 
 				<div class="faq">
 					<p>What if I study outside the UK?</p>
 					<p>You are still eligible. If you are outside Europe, you may need to apply for a visa. We can't sponsor visas.</p>
 				</div>
-			</div>
+
+				<div class="faq">
+					<p>I am under 18 can I still get a ticket?</p>
+					<p>Absolutely, if you are over 14 years old you can get a <a href="http://studenthackiv.eventbrite.co.uk" target="_blank">ticket</a>
+						and please fill in these forms,	print them and bring them with you on the day
+						<a href="./documents/ConsentForm.pdf" target="_blank">Consent form</a>,
+						<a href="./documents/PhotographyPolicy.pdf" target="_blank">Photography policy</a>,
+						<a href="http://goo.gl/forms/IqvfjfYbJT" target="_blank">Medical record</a> </p>
+				</div>
+
+            </div>
 
 			<div class='section-end'></div>
 		</div>
@@ -215,7 +237,67 @@
 
 			<div class='section-title'>
 				<h3>FAQ</h3>
-			</div>
+				<!-- WIP
+                <div class="faq">
+                    <p>I haven't coded much. Should I come?</p>
+                    <p>Absolutely! <a href="https://medium.com/@tfogo/hackathons-are-for-beginners-77a9c9c0e000">Hackathons are for beginners</a>.
+                        Networking with and seeing awesome hackers in action will expose you to a tremendous amount of knowledge.
+                        also have an amazing suit of industry experts and mentors that are happy to assist you! Still unsure? Message us and we will convince you! </p>
+                </div>
+
+                <div class="faq">
+                    <p>What should I bring?</p>
+                    <p>Bring your laptop, phone and chargers. Other things to consider: spare clothes, adapters,
+                        hardware and a sleeping bag, oh and don't forget your enthusiasm!
+                        We are going to provide you with all food, swag, sleeping rooms and drinks you will need to keep you going.</p>
+                </div>
+
+                <div class="faq">
+                    <p>I don't have a team. Help?</p>
+                    <p>Don't let that discourage you ― it is actually part of the fun! You will have 3 new friends by the end of the weekend.
+                        A team building session will be organized to help you form teams. We encourage everyone to use DEVPOST to find teammates.</p>
+                </div>
+
+                <div class="faq">
+                    <p>Do you have a code of conduct?</p>
+                    <p>Yes! We follow <a href="http://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank">MLH code of conducts</a>.</p>
+                </div>
+
+                <div class="faq">
+                    <p>Do you have safeguarding document?</p>
+                    <p>Yes, we do! Please <a href="mailto:hello@studenthack.com">Drop us a line</a></p>
+                </div>
+
+                <div class="faq">
+                    <p>Who owns my IP/code/idea?</p>
+                    <p>You own all the rights to your intellectual property. We won't claim any right over anything made during this event.</p>
+                </div>
+
+                <div class="faq">
+                    <p>I would like to mentor and give back to the community?</p>
+                    <p>AWESOME! please fill in this <a href="http://goo.gl/forms/4KDmis6b4W" target="_blank">form</a>
+                        and we will get back to you with more details.</p>
+                </div>
+
+                <div class="faq">
+                    <p>Who are the people behind this event?</p>
+                    <p>We are tech societies from The University of Manchester and Manchester Metropolitan University
+                        We are extremely passionate about hackathons and tech events and we have run StudentHack and GreatUniHack successfully for 3 years in Manchester.
+                        As well as some other events like workshops and tech meet ups.</p>
+                </div>
+
+                <div class="faq">
+                    <p>So this is StudentHack right? why GreatUniHack is mentioned?</p>
+                    <p>This is StudentHack the original hackathon that GreatUniHack's team fall in love with and the reason why GreatUniHack existed in first place,
+                        now we are working together to deliver the epic hackathon to give back to the community the experiences we all gained from hackathons.</p>
+                </div>
+
+				<div class="faq">
+					<p>WOW THIS WAS FUN, anymore of those "hackathons"?</p>
+					<p>YES! plenty actually, check out <a href="https://mlh.io/seasons/s2016-eu/events" target="_blank">MLH EU</a> for hackathons of similar caliber!.</p>
+				</div>
+				-->
+            </div>
 
 		</div>
 	</section>
@@ -225,6 +307,10 @@
 
 			<div class='section-title'>
 				<h3>Sponsors</h3>
+			</div>
+
+			<div class='section-title'>
+				<h3>Partners</h3>
 			</div>
 
 		</div>
@@ -241,7 +327,7 @@
 	</section>
 
 	<footer>
-		<p>&copy; 2012-16 StudentHack and Great Uni Hack.</p>
+		<p>&copy; 2012-16 StudentHack and GreatUniHack.</p>
 	</footer>
 
 	<a id="mlh-trust-badge" style="position:absolute;top:0;right:50px;max-width:100px;width:10%;min-width: 60px;display:block;z-index:10000" href="https://mlh.io/seasons/s2016-eu/events?utm_source=s2016eu&utm_medium=TrustBadge&utm_campaign=s2016eu" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/s2016.png" alt="MLH Official - Spring 2016" style="width:100%;" ></a>
