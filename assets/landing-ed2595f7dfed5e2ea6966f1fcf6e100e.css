@@ -80,6 +80,9 @@
   background: #168ede;
   color: #FFF;
 }
+.landing .menu .menuItem.logo:hover {
+  background: #fff;
+}
 @media (max-width: 968px) {
   .landing .menu .menuItem {
     width: 14.2%;
