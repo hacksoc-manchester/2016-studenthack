@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d77eb17-9527-498e-af01-db791306f7d4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/partners/mlh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/partners/mmu.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/partners/uom.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/trailer/text-blue.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/landing-ed2595f7dfed5e2ea6966f1fcf6e100e.css" afterPath="$PROJECT_DIR$/assets/landing-ed2595f7dfed5e2ea6966f1fcf6e100e.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/vendor/jquery.stickUp-032c9ff1c5ec47312e23e828451eaaef.js" afterPath="$PROJECT_DIR$/assets/vendor/jquery.stickUp-032c9ff1c5ec47312e23e828451eaaef.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="studenthack-2016.iws" />
@@ -27,22 +33,13 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.81564844">
-              <caret line="214" column="33" selection-start-line="214" selection-start-column="33" selection-end-line="214" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.27058825">
+              <caret line="100" column="155" selection-start-line="100" selection-start-column="143" selection-end-line="100" selection-end-column="155" />
               <folding>
+                <element signature="n#style#0;n#a#0;n#p#0;n#div#2;n#section#0;n#body#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#body#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#body#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="landing-ed2595f7dfed5e2ea6966f1fcf6e100e.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/landing-ed2595f7dfed5e2ea6966f1fcf6e100e.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-21.958334">
-              <caret line="456" column="22" selection-start-line="456" selection-start-column="22" selection-end-line="456" selection-end-column="22" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -65,10 +62,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-372" />
-    <option name="y" value="-1080" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -112,6 +107,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="studenthack-2016" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studenthack-2016" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studenthack-2016" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="documents" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -224,10 +233,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-372" y="-1080" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24960506" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37648928" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -255,7 +264,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/assets/landing-ed2595f7dfed5e2ea6966f1fcf6e100e.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.958334">
+        <state vertical-scroll-proportion="0.234375">
           <caret line="456" column="22" selection-start-line="456" selection-start-column="22" selection-end-line="456" selection-end-column="22" />
           <folding />
         </state>
@@ -263,9 +272,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.81564844">
-          <caret line="214" column="33" selection-start-line="214" selection-start-column="33" selection-end-line="214" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.27058825">
+          <caret line="100" column="155" selection-start-line="100" selection-start-column="143" selection-end-line="100" selection-end-column="155" />
           <folding>
+            <element signature="n#style#0;n#a#0;n#p#0;n#div#2;n#section#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#body#0;n#!!top" expanded="true" />
           </folding>

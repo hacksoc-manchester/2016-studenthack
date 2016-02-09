@@ -131,6 +131,7 @@ jQuery(function($){
         'tickets',
         'faq',
         'sponsors',
+        'partners',
         'contact'
       ],
       topMargin: 'auto',
