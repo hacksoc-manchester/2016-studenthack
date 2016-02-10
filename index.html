@@ -569,12 +569,14 @@
 <script src="./assets/vendor/jquery.stickUp-032c9ff1c5ec47312e23e828451eaaef.js"></script>
 
 <script>
-  (function(a) {
-    jQuery.browser.iDevice = /ip(hone|od|ad)/i.test(a);
-  })(navigator.userAgent || navigator.vendor || window.opera);
+  (function($) {
+    (function(a) {
+      $.checkForiDevice = /ip(hone|od|ad)/i.test(a);
+    })(navigator.userAgent || navigator.vendor || window.opera);
+  })(jQuery);
 
   $(document).ready(function(){
-    if($.browser.iDevice) {
+    if($.checkForiDevice) {
       $("video").remove();
     }
   });
