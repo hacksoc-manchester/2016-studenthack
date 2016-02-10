@@ -567,5 +567,17 @@
 <script src="./assets/bootstrap-91416daf9f05a6e9ca13ef54aa8dcb39.js"></script>
 <script src="./assets/trailer-fcec5b5a277ac7c20cc9f45a209a3bcd.js"></script>
 <script src="./assets/vendor/jquery.stickUp-032c9ff1c5ec47312e23e828451eaaef.js"></script>
+
+<script>
+  (function(a) {
+    jQuery.browser.iDevice = /ip(hone|od|ad)/i.test(a);
+  })(navigator.userAgent || navigator.vendor || window.opera);
+
+  $(document).ready(function(){
+    if($.browser.iDevice) {
+      $("video").remove();
+    }
+  });
+</script>
 </body>
 </html>
