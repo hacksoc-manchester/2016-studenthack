@@ -1,91 +1,91 @@
 ::selection {
-    background: #168EDE;
-    color: white;
+  background: #168EDE;
+  color: white;
 }
 
 ::-moz-selection {
-    background: #168EDE;
-    color: white;
+  background: #168EDE;
+  color: white;
 }
 
 ::-webkit-selection {
-    background: #168EDE;
-    color: white;
+  background: #168EDE;
+  color: white;
 }
 
 .clear {
-    clear: both;
-    float: none;
+  clear: both;
+  float: none;
 }
 
 .landing {
-    font-family: 'filson-pro', 'Menlo', 'Helvetica Neue', 'Arial', 'Verdana';
-    line-height: auto;
+  font-family: 'filson-pro', 'Menlo', 'Helvetica Neue', 'Arial', 'Verdana';
+  line-height: auto;
 }
 
 .landing .menu {
-    min-height: 50px;
-    max-height: 200px;
-    z-index: 1000;
-    width: 100%;
-    background: #FFF;
+  min-height: 50px;
+  max-height: 200px;
+  z-index: 1000;
+  width: 100%;
+  background: #FFF;
 }
 
 @media (max-width: 768px) and (orientation: portrait) {
-    .landing .menu {
-        display: none;
-    }
+  .landing .menu {
+    display: none;
+  }
 }
 
 .landing .menu .inner {
-    padding: 0;
-    font-weight: 400;
-    margin: 0 auto;
+  padding: 0;
+  font-weight: 400;
+  margin: 0 auto;
 }
 
 .landing .menu a:hover {
-    background: #1783c7;
+  background: #1783c7;
 }
 
 .landing .menu .logo {
-    display: block;
-    float: left;
-    position: relative;
-    width: 160px;
-    height: 50px;
-    padding: 0;
+  display: block;
+  float: left;
+  position: relative;
+  width: 160px;
+  height: 50px;
+  padding: 0;
 }
 
 .landing .menu .logo span {
-    position: absolute;
-    display: block;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    padding: 17px 0;
-    opacity: 1;
-    background: url(./trailer/text-blue.png) no-repeat center center;
-    background-size: 60% auto;
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 17px 0;
+  opacity: 1;
+  background: url(./trailer/text-blue.png) no-repeat center center;
+  background-size: 60% auto;
 }
 
 .landing .menu .menuItem {
-    display: block;
-    width: 12.5%;
-    width: calc(100% / 8);
-    min-width: 100px;
-    float: left;
-    margin: 0;
-    text-decoration: none;
-    font-size: 15px;
-    padding: 17px 0 18px;
-    text-align: center;
-    color: #168ede;
+  display: block;
+  width: 12.5%;
+  width: calc(100% / 8);
+  min-width: 100px;
+  float: left;
+  margin: 0;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 17px 0 18px;
+  text-align: center;
+  color: #168ede;
 }
 
 .landing .menu .menuItem:hover {
-    background: #168ede;
-    color: #FFF;
+  background: #168ede;
+  color: #FFF;
 }
 
 .landing .menu .menuItem.logo:hover {
@@ -93,67 +93,67 @@
 }
 
 @media (max-width: 968px) {
-    .landing .menu .menuItem {
-        width: 14.2%;
-        width: calc(100% / 7);
-    }
+  .landing .menu .menuItem {
+    width: 14.2%;
+    width: calc(100% / 7);
+  }
 }
 
 .landing .menu .menuItem.logo {
-    min-width: 150px;
+  min-width: 150px;
 }
 
 @media (max-width: 968px) {
-    .landing .menu .menuItem.logo {
-        display: none;
-    }
+  .landing .menu .menuItem.logo {
+    display: none;
+  }
 }
 
 .landing .menu .menuItem.active:not(.logo) {
-    background: #168EDE;
-    color: #FFF;
-    font-weight: bold;
+  background: #168EDE;
+  color: #FFF;
+  font-weight: bold;
 }
 
 .landing .menu .menuItem.end {
-    margin: 0;
+  margin: 0;
 }
 
 .landing .greyscale {
-    background-blend-mode: luminosity;
-    filter: url(./ "data:image/svg+xml;utf8,&lt;svg xmlns='http://www.w3.org/2000/svg'&gt;&lt;filter id='grayscale'&gt;&lt;feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/&gt;&lt;/filter&gt;&lt;/svg&gt;#grayscale");
-    filter: gray;
-    -webkit-filter: grayscale(100%);
+  background-blend-mode: luminosity;
+  filter: url(./ "data:image/svg+xml;utf8,&lt;svg xmlns='http://www.w3.org/2000/svg'&gt;&lt;filter id='grayscale'&gt;&lt;feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/&gt;&lt;/filter&gt;&lt;/svg&gt;#grayscale");
+  filter: gray;
+  -webkit-filter: grayscale(100%);
 }
 
 .landing strong {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .landing .big {
-    font-family: 'filson-pro', 'Helvetica Neue', 'Menlo', 'Arial';
+  font-family: 'filson-pro', 'Helvetica Neue', 'Menlo', 'Arial';
 }
 
 .landing .main {
-    width: 100%;
-    height: 100%;
-    background: #000;
-    position: relative;
-    overflow: auto;
-    overflow-x: hidden;
-    overflow-y: hidden;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  position: relative;
+  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 @media (max-width: 768px) and (orientation: portrait) {
-    .landing .main {
-        height: 100%;
-    }
+  .landing .main {
+    height: 100%;
+  }
 }
 
 @media (max-width: 768px) and (orientation: landscape) {
-    .landing .main {
-        height: 175%;
-    }
+  .landing .main {
+    height: 175%;
+  }
 }
 
 .landing .main video {
@@ -167,508 +167,532 @@
 }
 
 .landing .main .border {
-    width: 100%;
-    height: 5px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 21;
-    background: #168ede;
-    font-size: 13px;
-    padding-top: 8px;
-    text-align: center;
-    color: #fff;
+  width: 100%;
+  height: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 21;
+  background: #168ede;
+  font-size: 13px;
+  padding-top: 8px;
+  text-align: center;
+  color: #fff;
 }
 
 .landing .main .border.with-text {
-    height: 30px;
+  height: 30px;
 }
 
 .landing .main .border em {
-    font-style: italic;
+  font-style: italic;
 }
 
 .landing .main .grain {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: url(./landing/dotgrain-83dfa0e2a27a1f63f84f27709f8518f0.gif) repeat;
-    opacity: 0.15;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(./landing/dotgrain-83dfa0e2a27a1f63f84f27709f8518f0.gif) repeat;
+  opacity: 0.15;
 }
 
 .landing .main .overlay {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 20;
-    text-align: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  text-align: center;
 }
 
 .landing .main .overlay a.logo {
-    background: url(./trailer/logo-new-stars-55904a437f7252f05668b0572e642f87.png) no-repeat;
-    background-size: 151px 151px;
-    width: 151px;
-    height: 151px;
-    margin-top: 75px;
-    display: inline-block;
+  background: url(./trailer/logo-new-stars-55904a437f7252f05668b0572e642f87.png) no-repeat;
+  background-size: 151px 151px;
+  width: 151px;
+  height: 151px;
+  margin-top: 75px;
+  display: inline-block;
 }
 
 @media (max-width: 768px) and (orientation: portrait) {
-    .landing .main .overlay a.logo {
-        background-size: 100px 100px;
-        margin-top: 50px;
-        width: 100px;
-        height: 100px;
-    }
+  .landing .main .overlay a.logo {
+    background-size: 100px 100px;
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+  }
 }
 
 .landing .main .overlay .lower-half {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    width: 100%;
-    height: 50%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 50%;
 }
 
 @media (max-width: 768px) and (orientation: portrait) {
-    .landing .main .overlay .lower-half {
-        top: 40%;
-        height: 60%;
-    }
+  .landing .main .overlay .lower-half {
+    top: 40%;
+    height: 60%;
+  }
 }
 
 .landing .main .overlay .scroll-down {
-    position: absolute;
-    top: 95%;
-    left: 25%;
-    width: 50%;
-    height: 5%;
-    display: inline-block;
-    text-align: center;
-    font-size: 12px;
+  position: absolute;
+  top: 95%;
+  left: 25%;
+  width: 50%;
+  height: 5%;
+  display: inline-block;
+  text-align: center;
+  font-size: 12px;
 }
 
 .landing .main .overlay .scroll-down a {
-    color: rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255, 0.75);
 }
 
 .landing .main .overlay .scroll-down a:hover, .landing .main .overlay .scroll-down a:visited, .landing .main .overlay .scroll-down a:focus {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .landing .main .overlay .call-to-actions {
-    margin-top: 80px;
+  margin-top: 80px;
 }
 
 .landing .main .overlay .call-to-actions li {
-    display: inline-block;
+  display: inline-block;
 }
 
 @media (max-width: 768px) and (orientation: portrait) {
-    .landing .main .overlay .call-to-actions li {
-        display: block;
-        width: 100%;
-        margin-bottom: 1px;
-    }
+  .landing .main .overlay .call-to-actions li {
+    display: block;
+    width: 100%;
+    margin-bottom: 1px;
+  }
 }
 
 .landing .main .overlay .call-to-actions li a {
-    display: block;
-    position: relative;
-    padding: 24px;
-    font-size: 24px;
-    background: #168ede;
+  display: block;
+  position: relative;
+  padding: 24px;
+  font-size: 24px;
+  background: #168ede;
 }
 
 @media (min-width: 1024px) {
-    .landing .main .overlay .call-to-actions li a {
-        border-bottom: 4px solid #165ede;
-    }
+  .landing .main .overlay .call-to-actions li a {
+    border-bottom: 4px solid #165ede;
+  }
 }
 
 .landing .main .overlay .call-to-actions li a:hover {
-    background: #165ede;
+  background: #165ede;
 }
 
 @media (min-width: 1024px) {
-    .landing .main .overlay .call-to-actions li a:hover {
-        border-bottom: 0;
-        top: 4px;
-    }
+  .landing .main .overlay .call-to-actions li a:hover {
+    border-bottom: 0;
+    top: 4px;
+  }
 }
 
 @media (max-width: 768px) and (orientation: portrait) {
-    .landing .main .overlay .call-to-actions li a {
-        padding: 10px;
-        font-size: 18px;
-    }
+  .landing .main .overlay .call-to-actions li a {
+    padding: 10px;
+    font-size: 18px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
-    .landing .main .overlay .call-to-actions li a {
-        padding: 18px;
-        font-size: 18px;
-    }
+  .landing .main .overlay .call-to-actions li a {
+    padding: 18px;
+    font-size: 18px;
+  }
 }
 
 @media (max-width: 768px) and (orientation: portrait) {
-    .landing .main .overlay .call-to-actions {
-        margin-top: 50px;
-    }
+  .landing .main .overlay .call-to-actions {
+    margin-top: 50px;
+  }
 }
 
 .landing .main .overlay .call-to-actions a, .landing .main .overlay .call-to-actions a:link, .landing .main .overlay .call-to-actions a:hover, .landing .main .overlay .call-to-actions a:visited, .landing .main .overlay .call-to-actions a:focus {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 
 .landing .main .overlay h3 {
-    margin-top: 0px;
-    font-size: 40px;
-    letter-spacing: 0px;
-    font-weight: 200;
-    color: rgba(255, 255, 255, 0.75);
-    line-height: 60px;
+  margin-top: 0px;
+  font-size: 40px;
+  letter-spacing: 0px;
+  font-weight: 200;
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 60px;
 }
 
 .landing .main .overlay h3 span {
-    color: #168ede;
-    border: 2px solid #168ede;
-    padding: 0 5px;
-    font-weight: bold;
-    letter-spacing: -1px;
+  color: #168ede;
+  border: 2px solid #168ede;
+  padding: 0 5px;
+  font-weight: bold;
+  letter-spacing: -1px;
 }
 
 @media (max-width: 768px) and (orientation: portrait) {
-    .landing .main .overlay h3 {
-        font-size: 24px;
-        line-height: 30px;
-    }
+  .landing .main .overlay h3 {
+    font-size: 24px;
+    line-height: 30px;
+  }
 
-    .landing .main .overlay h3 br {
-        display: none;
-    }
+  .landing .main .overlay h3 br {
+    display: none;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
-    .landing .main .overlay h3 {
-        font-size: 30px;
-    }
+  .landing .main .overlay h3 {
+    font-size: 30px;
+  }
 }
 
 .landing .main .overlay h5 {
-    margin-top: 25px;
-    color: rgba(255, 255, 255, 0.75);
-    font-size: 16px;
+  margin-top: 25px;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 16px;
 }
 
 @media (max-width: 768px) and (orientation: portrait) {
-    .landing .main .overlay h5 {
-        font-size: 14px;
-    }
+  .landing .main .overlay h5 {
+    font-size: 14px;
+  }
 }
 
 .landing section#about {
-    background-color: #0d0d0d;
+  background-color: #0d0d0d;
 }
 
 @media (min-width: 1024px) {
-    .landing section#about {
-        background-image: url(./trailer/section-about-1015b15e89ad5876001d20c854d18dfe.png);
-        background-repeat: repeat-y;
-        background-position: center right;
-        background-size: auto 150%;
-        background-attachment: fixed;
-    }
+  .landing section#about {
+    background-image: url(./trailer/section-about-1015b15e89ad5876001d20c854d18dfe.png);
+    background-repeat: repeat-y;
+    background-position: center right;
+    background-size: auto 150%;
+    background-attachment: fixed;
+  }
 }
 
 .landing section#about .section-title h3 {
-    background: transparent;
-    color: #fff;
+  background: transparent;
+  color: #fff;
 }
 
 .landing section#about .section-text p {
-    color: #fff;
+  color: #fff;
 }
 
 .landing section {
-    background-color: #168ede;
+  background-color: #168ede;
 }
 
 @media (min-width: 1024px) {
-    .landing section {
-        background-color: #168EDE;
-        background-repeat: repeat-y;
-        background-position: center center;
-        background-size: 100% auto;
-        background-attachment: fixed;
-    }
+  .landing section {
+    background-color: #168EDE;
+    background-repeat: repeat-y;
+    background-position: center center;
+    background-size: 100% auto;
+    background-attachment: fixed;
+  }
 }
 
 .landing section .section-text p {
-    color: #fff;
+  color: #fff;
 }
 
 .landing section .section-text p a {
-    color: inherit;
-    text-decoration: underline;
+  color: inherit;
+  text-decoration: underline;
 }
 
 .landing section ul.videos {
-    display: block;
-    width: 100%;
-    height: 73px;
-    float: none;
-    clear: both;
+  display: block;
+  width: 100%;
+  height: 73px;
+  float: none;
+  clear: both;
 }
 
 .landing section ul.videos.hackathons li a img {
-    border-color: #168ede;
+  border-color: #168ede;
 }
 
 .landing section ul.videos.inspiration li a img {
-    border-color: orange;
+  border-color: orange;
 }
 
 .landing section ul.videos li {
-    float: left;
-    width: calc(100% / 3);
-    height: 73px;
-    text-align: center;
+  float: left;
+  width: calc(100% / 3);
+  height: 73px;
+  text-align: center;
 }
 
 .landing section ul.videos li a {
-    display: inline-block;
-    background: #000;
-    width: 97px;
-    height: 73px;
-    position: relative;
-    opacity: 0.6;
-    -webkit-transition: opacity 0.5s ease-in-out;
-    -moz-transition: opacity 0.5s ease-in-out;
-    transition: opacity 0.5s ease-in-out;
+  display: inline-block;
+  background: #000;
+  width: 97px;
+  height: 73px;
+  position: relative;
+  opacity: 0.6;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
 }
 
 .landing section ul.videos li a:after {
-    content: "";
-    position: absolute;
-    top: 26px;
-    left: 0;
-    display: inline-block;
-    background: url(./videos/play-38ce45751c38784b8f62568fac910f06.png) no-repeat center center;
-    background-size: 20px 20px;
-    width: 100%;
-    height: 20px;
-    z-index: 100;
+  content: "";
+  position: absolute;
+  top: 26px;
+  left: 0;
+  display: inline-block;
+  background: url(./videos/play-38ce45751c38784b8f62568fac910f06.png) no-repeat center center;
+  background-size: 20px 20px;
+  width: 100%;
+  height: 20px;
+  z-index: 100;
 }
 
 .landing section ul.videos li a:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 .landing section ul.videos li img {
-    display: inline-block;
-    position: relative;
-    width: 97px;
-    height: 73px;
-    border: 1px solid #fff;
+  display: inline-block;
+  position: relative;
+  width: 97px;
+  height: 73px;
+  border: 1px solid #fff;
 }
 
 .landing section ul.videos li, .landing section ul.videos li a, .landing section ul.videos li img {
-    border-radius: 10px;
-    -o-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
+  border-radius: 10px;
+  -o-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
 }
 
 .landing section#tickets .section-text {
-    padding-left: 40px;
-    padding-right: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 @media (min-width: 1024px) {
-    .landing section#tickets .section-text:not(.below-title) {
-        padding-left: 30px;
-    }
+  .landing section#tickets .section-text:not(.below-title) {
+    padding-left: 30px;
+  }
 }
 
 .landing section .faq {
-    margin-top: 15px;
-    background: #fff;
-    padding: 10px;
+  margin-top: 15px;
+  background: #fff;
+  padding: 10px;
+}
+
+.landing section .faq ul {
+  margin-top: 5px;
+}
+
+.landing section .faq ul li {
+  list-style: disc inside;
+  color: #168ede;
+}
+
+.landing section .faq ul li a {
+  color: #168ede;
 }
 
 .landing section .faq p {
-    color: #168ede;
+  color: #168ede;
 }
 
 .landing section .faq p:first-child:before {
-    content: "Q: ";
+  content: "Q: ";
 }
 
 .landing section .faq p:last-child:before {
-    content: "A: ";
+  content: "A: ";
 }
 
 .landing section .faq p:first-child {
-    padding: 0;
-    font-weight: bold;
+  padding: 0;
+  font-weight: bold;
 }
 
 .landing section .faq p:last-child {
-    padding-top: 5px;
+  padding-top: 5px;
 }
 
 .landing section {
-    min-height: 500px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  min-height: 500px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
 }
 
 .landing section .section-title {
-    position: relative;
-    height: 100px;
+  position: relative;
+  height: 100px;
 }
 
 .landing section .section-title.with-line:before {
-    position: absolute;
-    top: 70%;
-    display: block;
-    content: "";
-    width: 100%;
-    height: 3px;
-    background: #168EDE;
+  position: absolute;
+  top: 70%;
+  display: block;
+  content: "";
+  width: 100%;
+  height: 3px;
+  background: #168EDE;
 }
 
 .landing section .section-title h3 {
-    position: absolute;
-    top: 34%;
-    font-size: 42px;
-    padding: 15px 40px;
-    background: #87C9F5;
-    color: #168ede;
+  position: absolute;
+  top: 34%;
+  font-size: 42px;
+  padding: 15px 40px;
+  background: #87C9F5;
+  color: #168ede;
 }
 
 .landing section ul.logo-list {
-    display: block;
-    padding: 10px;
-    text-align: left;
+  display: block;
+  padding: 10px;
+  text-align: left;
+}
+
+.landing section ul.logo-list.spacing-at-top {
+  padding-top: 25px;
 }
 
 .landing section ul.logo-list li {
-    display: inline-block;
-    vertical-align: center;
-    margin: 0 30px;
+  display: inline-block;
+  vertical-align: center;
+  margin: 0 30px;
 }
 
 .landing section ul.logo-list li img {
-    max-width: 200px;
+  max-width: 200px;
 }
 
 @media (max-width: 768px) {
   .landing section ul.logo-list li {
-    display: block;
-    width: 100%;
-    margin: 30px 0;
-    text-align: center;
+  display: block;
+  width: 100%;
+  margin: 30px 0;
+  text-align: center;
   }
 }
 
 .landing section hr {
-    opacity: 0.2;
+  opacity: 0.2;
 }
 
 .landing section .section-text {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+}
+
+@media (min-width: 768px) {
+  .landing section:not(#about) .section-text {
+    margin-top: 30px;
+  }
 }
 
 .landing section .section-text.faq-spaced {
-    padding-left: 20px;
-    padding-right: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .landing section .section-text.below-title {
-    padding-left: 40px;
-    padding-right: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 @media (min-width: 1024px) {
-    .landing section .section-text.right-of-last {
-        display: inline-block;
-        vertical-align: top;
-    }
+  .landing section .section-text.right-of-last {
+    display: inline-block;
+    vertical-align: top;
+  }
 
-    .landing section .section-text.line-on-left {
-        border-left: 1px solid rgba(255, 255, 255, 0.5);
-    }
+  .landing section .section-text.line-on-left {
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+  }
 
-    .landing section .section-text.line-on-right {
-        border-right: 1px solid rgba(255, 255, 255, 0.5);
-    }
+  .landing section .section-text.line-on-right {
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+  }
 }
 
 .landing section .section-text.compressed {
-    width: 100%;
+  width: 100%;
 }
 
 @media (min-width: 1024px) {
-    .landing section .section-text.compressed {
-        width: 400px;
-    }
+  .landing section .section-text.compressed {
+    width: 400px;
+  }
 }
 
 .landing section .section-text p {
-    padding-top: 15px;
-    font-size: 16px;
-    line-height: 19px;
+  padding-top: 15px;
+  font-size: 16px;
+  line-height: 19px;
 }
 
 .landing section .section-text p.large {
-    font-size: 20px;
-    line-height: 25px;
+  font-size: 20px;
+  line-height: 25px;
 }
 
 .landing section .section-text p.extra-large {
-    font-size: 25px;
-    line-height: 30px;
+  font-size: 25px;
+  line-height: 30px;
 }
 
 .landing section .section-text p.no-top-padding {
-    padding-top: 0;
+  padding-top: 0;
 }
 
 .landing section .section-end {
-    width: 100%;
-    height: 70px;
+  width: 100%;
+  height: 70px;
 }
 
 .landing footer {
-    padding: 20px;
-    background: #fff;
+  padding: 20px;
+  background: #fff;
 }
 
 .landing footer p {
-    color: #168ede;
-    font-size: 19px;
-    text-align: center;
+  color: #168ede;
+  font-size: 19px;
+  text-align: center;
 }
 
 @media (min-width: 1024px) {
-    .platinum-sponsor img {
-        max-width: 400px !important;
-        width: 400px;
-    }
+  .platinum-sponsor img {
+    max-width: 400px !important;
+    width: 400px;
+  }
 
-    .gold-sponsor img {
-        max-width: 300px !important;
-        width: 300px;
-    }
+  .gold-sponsor img {
+    max-width: 300px !important;
+    width: 300px;
+  }
 
-    .bronze-sponsor img {
-        max-width: 100px !important;
-    }
+  .bronze-sponsor img {
+    max-width: 100px !important;
+  }
 }
