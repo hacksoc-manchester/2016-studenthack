@@ -546,6 +546,12 @@
   height: 100px;
 }
 
+@media(max-width: 400px) {
+  .landing section#hackathon .section-title {
+    margin-bottom: 75px;
+  }
+}
+
 .landing section .section-title.with-line:before {
   position: absolute;
   top: 70%;
