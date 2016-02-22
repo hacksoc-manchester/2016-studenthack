@@ -687,7 +687,7 @@
   text-align: center;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .platinum-sponsor img {
     max-width: 400px !important;
     width: 400px;
