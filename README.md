@@ -4,7 +4,7 @@
 
 Clone the repository using:
 
-    $ git clone https://github.com/hacksoc-manchester/studenthack-2016
+    $ git clone --recursive https://github.com/hacksoc-manchester/studenthack-2016
 
 For more information read the official [setup guide](//gohugo.io/overview/installing/) of Hugo.
 
