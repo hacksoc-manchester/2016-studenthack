@@ -11,7 +11,9 @@ For more information read the official [setup guide](//gohugo.io/overview/instal
 ## Making Changes
 
 config.toml - contains all the date the site is using
+
 /static/ - contains all the assesets the site is using (css, js, images, etc.)
+
 /layouts/partials - contains all html of the pages
 
 ### Before pushing
