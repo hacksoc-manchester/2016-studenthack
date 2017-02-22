@@ -80,9 +80,11 @@
                                 <div class="col-md-4"></div>
 			        {{ range .Site.Params.sponsors.hardware }}
 			        	<div class="col-md-4 col-sm-4 col-xxs-12">
+                                        {{ if .Site.Params.sponsors.track.img }}
 			        		<a href="{{ .link }}" class="fh5co-sponsor-item to-animate">
 			        			<img src="images/{{ .img }}" alt="{{ .alt }}" class="img-responsive center-block">
 			        		</a>
+			        	{{ end }}
 			        	</div>				
 			        {{ end }}
                                 </div>
