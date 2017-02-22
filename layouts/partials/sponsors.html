@@ -14,15 +14,13 @@
 			        <div class="row row-bottom-padded-sm platinum-sponsor text-center">
                                     <p class="to-animate"> Platinum </p>
 			        {{ range .Site.Params.sponsors.platinum }}
-                                <div class="col-md-3 col-sm-3"></div>
 			        	<div class="col-md-6 col-sm-6 col-xxs-12">
 			        		<a href="{{ .link }}" class="fh5co-sponsor-item to-animate">
 			        			<img src="images/{{ .img }}" alt="{{ .alt }}" class="img-responsive center-block">
 			        		</a>
 			        	</div>
-                                        <div class="col-md-3 col-sm-3"></div>
-			    	<div class="clearfix"></div>
 			        {{ end }}
+			    	<div class="clearfix"></div>
                                 </div>
                         {{ end }}
                         {{ if .Site.Params.sponsors.enTrac }}
