@@ -191,7 +191,7 @@ theme = "hugo-elate-theme"
     [[params.sponsors.venue]]
       img = "landing.png"
       alt = "The Landing"
-      link = "http://www.mediacityuk.co.uk/occupiers/the-landing"
+      link = "http://www.thelanding.org.uk/"
 
     [[params.sponsors.platinum]]
       img = "riot.png"
