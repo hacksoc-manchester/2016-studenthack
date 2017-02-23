@@ -906,6 +906,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', end
     color: #48556A;
     margin-top: 50px;
 }
+#fh5co-sponsors .venue-sponsor p {
+  font-family: Ubuntu;
+  font-size: 45px;
+  color: #1B2B46;
+}
 #fh5co-sponsors .platinum-sponsor p {
   font-family: Ubuntu;
   font-size: 45px;

@@ -177,6 +177,7 @@ theme = "hugo-elate-theme"
   # Sponsors section
   [params.sponsors]
     enable = true
+    enVenu = true
     enPlat = true
     enHard = true
     enTrac = true
@@ -186,6 +187,11 @@ theme = "hugo-elate-theme"
     enPart = true
     title = "Sponsors"
     description = "They made it possible!"
+
+    [[params.sponsors.venue]]
+      img = "landing.png"
+      alt = "The Landing"
+      link = "http://www.mediacityuk.co.uk/occupiers/the-landing"
 
     [[params.sponsors.platinum]]
       img = "riot.png"
