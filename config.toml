@@ -190,14 +190,14 @@ theme = "hugo-elate-theme"
           icon = "icon-game-controller"
 
         [[params.tracks.item]]
-          title = "Big Data"
-          description = "Data is all around us in many shapes and form, the challenge of aggregating the data to make decisions to improve businesses is what this track challenge is all about. Accenture faces this challenge daily and as such they adopting this track and offering complete mentorship support throughout the weekend. Join this track to mine all that data and create the next Skynet and be StudentHack’s BigData Challenge Winner."
-          icon = "icon-chart"
-
-        [[params.tracks.item]]
           title = "Security"
           description = "Whether you have something to hide, or not, you surely have something to protect. Security is something that concerns everybody, and this is your chance to test your creativity skills, or, better say, your knowledge of encryption algorithms. Join us at StudentHack and work on the Security track, to make sure nobody can easily hack into your accounts and be StudentHack's Security Challenge Winner."
           icon = "icon-lock"
+
+        [[params.tracks.item]]
+          title = "Big Data"
+          description = "Data is all around us in many shapes and form, the challenge of aggregating the data to make decisions to improve businesses is what this track challenge is all about. Accenture faces this challenge daily and as such they adopting this track and offering complete mentorship support throughout the weekend. Join this track to mine all that data and create the next Skynet and be StudentHack’s BigData Challenge Winner."
+          icon = "icon-chart"
 
         [[params.tracks.item]]
           title = "Education"
