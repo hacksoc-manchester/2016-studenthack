@@ -236,6 +236,50 @@
 		}
 	};
 
+	var tracksAnimate = function() {
+		var tracks = $('#fh5co-tracks');
+		if ( tracks.length > 0 ) {
+
+			tracks.waypoint( function( direction ) {
+
+				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
+
+					var sec = tracks.find('.to-animate').length,
+						sec = parseInt((sec * 100) + 200);
+
+					setTimeout(function() {
+						tracks.find('.to-animate').each(function( k ) {
+							var el = $(this);
+
+							setTimeout ( function () {
+								el.addClass('fadeInUp animated');
+							},  k * 200, 'easeInOutExpo' );
+
+						});
+					}, 200);
+
+					setTimeout(function() {
+						tracks.find('.to-animate-2').each(function( k ) {
+							var el = $(this);
+
+							setTimeout ( function () {
+								el.addClass('bounceIn animated');
+							},  k * 200, 'easeInOutExpo' );
+
+						});
+					}, sec);
+
+
+
+					$(this.element).addClass('animated');
+
+				}
+			} , { offset: '80%' } );
+
+		}
+	};
+
+
 
 	var schedAnimate = function() {
 		var sched = $('#fh5co-schedule');
@@ -488,6 +532,7 @@
 		homeAnimate();
 		introAnimate();
 		sponsorsAnimate();
+		tracksAnimate();
 		schedAnimate();
 		faqAnimate();
 		chartAnimate();
