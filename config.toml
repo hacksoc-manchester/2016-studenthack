@@ -356,7 +356,7 @@ theme = "hugo-elate-theme"
 
   # Contact section
   [params.contact]
-    enable = true
+    enable = false
     title = "Get in touch"
     description = "For any question, feedback or sponsorship proposal, feel free to contact us!"
 
