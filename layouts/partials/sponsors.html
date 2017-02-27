@@ -10,69 +10,62 @@
 					</div>
 				</div>
 			</div>
-                        {{ if .Site.Params.sponsors.enVenu }}
-			        <div class="row row-bottom-padded-sm venue-sponsor text-center">
-                                    <p class="to-animate"> Venue </p>
-                                    <div class="col-md-3"></div>
-			        {{ range .Site.Params.sponsors.venue }}
-			        	<div class="col-md-6 col-sm-6 col-xxs-12">
-			        		<a href="{{ .link }}" class="fh5co-sponsor-item to-animate">
-			        			<img src="images/{{ .img }}" alt="{{ .alt }}" class="img-responsive center-block">
-			        		</a>
-			        	</div>
-			        {{ end }}
-			    	<div class="clearfix"></div>
-                                </div>
-                        {{ end }}
                         {{ if .Site.Params.sponsors.enPlat }}
-			        <div class="row row-bottom-padded-sm platinum-sponsor text-center">
+			        <div class="row row-bottom-padded-sm platinum-sponsor">
                                     <p class="to-animate"> Platinum </p>
+                                <div class="col-md-3"></div>
 			        {{ range .Site.Params.sponsors.platinum }}
-			        	<div class="col-md-6 col-sm-6 col-xxs-12">
-			        		<a href="{{ .link }}" class="fh5co-sponsor-item to-animate">
-			        			<img src="images/{{ .img }}" alt="{{ .alt }}" class="img-responsive center-block">
+			        	<div class="col-md-6 col-sm-4 col-xxs-12">
+			        		<a href="{{ .link }}" class="fh5co-sponsor-item image-popup to-animate">
+			        			<img src="images/{{ .img }}" alt="{{ .alt }}" class="img-responsive">
 			        		</a>
-			        	</div>
+			        	</div>				
+
+			        	<div class="clearfix visible-sm-block"></div>
 			        {{ end }}
-			    	<div class="clearfix"></div>
                                 </div>
                         {{ end }}
+
                         {{ if .Site.Params.sponsors.enTrac }}
-			        <div class="row row-bottom-padded-sm track-sponsor text-center">
+			        <div class="row row-bottom-padded-sm track-sponsor">
                                 <p class="to-animate"> Track </p>
                                 {{ range .Site.Params.sponsors.track }}
 			        	<div class="col-md-6 col-sm-4 col-xxs-12">
 			        		<a href="{{ .link }}" class="fh5co-sponsor-item to-animate">
-			        			<img src="images/{{ .img }}" alt="{{ .alt }}" class="img-responsive center-block">
+			        			<img src="images/{{ .img }}" alt="{{ .alt }}" class="img-responsive">
 			        		</a>
-                                        </div>	
+			        	</div>				
+
+			        	<div class="clearfix visible-sm-block"></div>
 			        {{ end }}
-			    	<div class="clearfix"></div>
                                 </div>
 			{{ end }}
                         {{ if .Site.Params.sponsors.enGold }}
-			        <div class="row row-bottom-padded-sm gold-sponsor text-center">
+			        <div class="row row-bottom-padded-sm gold-sponsor">
                                 <p class="to-animate"> Gold </p>
-                                <div class="col-md-3"></div>
                                 {{ range .Site.Params.sponsors.gold }}
-			        	<div class="col-md-6 col-sm-6 col-xxs-12">
+			        	<div class="col-md-6 col-sm-4 col-xxs-12">
 			        		<a href="{{ .link }}" class="fh5co-sponsor-item to-animate">
-			        			<img src="images/{{ .img }}" alt="{{ .alt }}" class="img-responsive center-block">
+			        			<img src="images/{{ .img }}" alt="{{ .alt }}" class="img-responsive">
 			        		</a>
 			        	</div>				
+
+			        	<div class="clearfix visible-sm-block"></div>
 			        {{ end }}
                                 </div>
 			{{ end }}
                         {{ if .Site.Params.sponsors.enSilv }}
 		                <div class="row row-bottom-padded-sm silver-sponsor text-center">
                                 <p class="to-animate"> Silver </p>
-                                <div class="col-md-3"></div>
+                                <div class="col-md-4"></div>
                                 {{ range .Site.Params.sponsors.silver }}
-			        	<div class="col-md-6 col-sm-6 col-xxs-12">
+			        	<div class="col-md-4 col-sm-4 col-xxs-12">
 			        		<a href="{{ .link }}" class="fh5co-sponsor-item to-animate">
-			        			<img src="images/{{ .img }}" alt="{{ .alt }}" class="img-responsive center-block">
+			        			<img src="images/{{ .img }}" alt="{{ .alt }}" class="img-responsive">
 			        		</a>
 			        	</div>				
+
+			        	<div class="clearfix visible-sm-block"></div>
 			        {{ end }}
                                 </div>
 			{{ end }}
@@ -80,13 +73,13 @@
 			        <div class="row row-bottom-padded-sm bronze-sponsor text-center">
                                 <p class="to-animate"> Bronze </p>
                                 {{ range .Site.Params.sponsors.bronze }}
-			        	<div class="col-md-4 col-sm-4 col-xxs-12">
-                                        {{ if ne .img "" }}
+			        	<div class="col-md-6 col-sm-6 col-xxs-12">
 			        		<a href="{{ .link }}" class="fh5co-sponsor-item to-animate">
 			        			<img src="images/{{ .img }}" alt="{{ .alt }}" class="img-responsive center-block">
 			        		</a>
-			        	{{ end }}
 			        	</div>				
+
+			        	<div class="clearfix visible-sm-block"></div>
 			        {{ end }}
                                 </div>
 			{{ end }}
@@ -97,21 +90,26 @@
 			        {{ range .Site.Params.sponsors.hardware }}
 			        	<div class="col-md-4 col-sm-4 col-xxs-12">
 			        		<a href="{{ .link }}" class="fh5co-sponsor-item to-animate">
-			        			<img src="images/{{ .img }}" alt="{{ .alt }}" class="img-responsive center-block">
+			        			<img src="images/{{ .img }}" alt="{{ .alt }}" class="img-responsive">
 			        		</a>
 			        	</div>				
+
+			        	<div class="clearfix visible-sm-block"></div>
 			        {{ end }}
                                 </div>
 			{{ end }}
                         {{ if .Site.Params.sponsors.enPart }}
                                 <div class="row row-bottom-padded-sm partner-sponsor text-center">
                                 <p class="to-animate"> Partners </p>
+                                <div class="col-md-4"></div>
 			        {{ range .Site.Params.sponsors.partner }}
-			        	<div class="col-md-6 col-sm-6 col-xxs-12">
+			        	<div class="col-md-4 col-sm-4 col-xxs-12">
 			        		<a href="{{ .link }}" class="fh5co-sponsor-item to-animate">
 			        			<img src="images/{{ .img }}" alt="{{ .alt }}" class="img-responsive center-block">
 			        		</a>
 			        	</div>				
+
+			        	<div class="clearfix visible-sm-block"></div>
 			        {{ end }}
                                 </div>
 			{{ end }}
