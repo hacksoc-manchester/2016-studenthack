@@ -216,7 +216,7 @@ theme = "hugo-elate-theme"
     [[params.sponsors.gold]]
       img = "cakesol.png"
       alt = "Cake Solutions"
-      link = "http://www.cackesolutions.net"
+      link = "http://www.cakesolutions.net"
 
     [[params.sponsors.silver]]
       img = "twilio.png"
