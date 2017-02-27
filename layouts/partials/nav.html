@@ -24,6 +24,10 @@
                     <li><a href="#" data-nav-section="schedule"><span>{{ with .Site.Params.navigation.schedule }}{{ . | markdownify }}{{ end }}</span></a></li> 
                     {{ end }}
 
+                    {{ if .Site.Params.tracks.enable }}
+                    <li><a href="#" data-nav-section="tracks"><span>{{ with .Site.Params.navigation.tracks }}{{ . | markdownify }}{{ end }}</span></a></li> 
+                    {{ end }}
+
                     {{ if .Site.Params.sponsors.enable }}
                     <li><a href="#" data-nav-section="sponsors"><span>{{ with .Site.Params.navigation.sponsors }}{{ . | markdownify }}{{ end }}</span></a></li> 
                     {{ end }}
