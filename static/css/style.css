@@ -7,7 +7,7 @@
 }
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
@@ -372,7 +372,7 @@ h1, h2, h3, h4, h5, h6 {
   -o-transition: 0s;
   transition: 0s;
 }
-        
+
 #fh5co-home {
   background-color: transparent;
   background-size: cover;
@@ -632,6 +632,10 @@ h1, h2, h3, h4, h5, h6 {
       display: block;
       text-align: center;
   }
+  #fh5co-tracks h3{
+      margin: 0 0 10px 0 !important;
+      width: 100% !important;
+  }
 }
 
 #fh5co-faq {
@@ -751,7 +755,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #fh5co-tracks p {
-  font-size: 18px;
+  font-size: 17px;
+  float: left;
 }
 
 #fh5co-tracks .icon {
