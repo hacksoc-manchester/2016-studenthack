@@ -254,6 +254,11 @@ theme = "hugo-elate-theme"
       alt = "WebApplicationsUk"
       link = "https://www.webapplicationsuk.com"
 
+    [[params.sponsors.track]]
+      img = "barclays.png"
+      alt = "Barclays"
+      link = "https://www.home.barclays/"
+
     [[params.sponsors.gold]]
       img = "cakesol.png"
       alt = "Cake Solutions"
