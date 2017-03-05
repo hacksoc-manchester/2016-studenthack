@@ -1,5 +1,5 @@
 # Page settings
-baseurl = "http://localhost:1313/"
+baseurl = "https://www.studenthack.com"
 title = "StudentHack V"
 publishdir = "public"
 languageCode = "en-us"
@@ -26,10 +26,10 @@ theme = "hugo-elate-theme"
     challenges = "Challenges"
 
     # postpended links
-    [[menu.postpend]]
-      url = "/challenges"
-      name = "Challenges"
-      weight = 10
+    #[[menu.postpend]]
+    #  url = "/challenges"
+    #  name = "Challenges"
+    #  weight = 10
  
     # prepended links
     #[[menu.prepend]]
@@ -276,21 +276,26 @@ theme = "hugo-elate-theme"
       img = "codethink.png"
       alt = "Codethink"
       link = "https://www.codethink.co.uk/"
+    
+    [[params.sponsors.bronze]]
+      img = ""
+      alt = "" 
+      link = ""
 
+    [[params.sponsors.bronze]]
+      img = "telcom.png"
+      alt = "Telcom"
+      link = "https://telcom.io"
+      
     [[params.sponsors.bronze]]
       img = "noma.png"
       alt = "Noma"
       link = "https://www.noma-manchester.com"
 
     [[params.sponsors.bronze]]
-      img = "telcom.png"
-      alt = "Telcom"
-      link = "https://telcom.io"
-
-    [[params.sponsors.bronze]]
-      img = ""
-      alt = ""
-      link = ""
+      img = "space48.png"
+      alt = "Space 48"
+      link = "https://www.space48.com"
 
     [[params.sponsors.bronze]]
       img = "morgans.png"
@@ -333,7 +338,7 @@ theme = "hugo-elate-theme"
 	desc = ["From Manchester Airport take the train to Manchester Piccadilly (£5)",
 		"From Manchester Piccadilly station, go downstairs to the tram station and take the tram to MediaCityUK. (£2.8 single / £3.90 return)"]
     [[params.location.option]]
-	titl = "Useful links and information:"
+	titl = "Useful links and information"
 	desc = ["A volunteer will be in the MediaCityUK tram station, providing directions to the venue (aprox 3 min walk)",
    		'<a href="http://www.manchesterairport.co.uk/to-and-from-the-airport/metrolink/">To and from the airport - Metrolink</a>',
     		'<a href="http://www.metrolink.co.uk/stationinfo/Documents/Route_Map.pdf">Metroling - Route map</a>',
@@ -379,7 +384,6 @@ theme = "hugo-elate-theme"
 
   # Challenges section
   [params.challenges]
-    enable = false
     title = "Challenges"
 
   # Contact section

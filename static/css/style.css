@@ -1066,12 +1066,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', end
   display: inline-block;
   width: 100%;
   height: 100%;
-  vertical-align:middle;
   position: relative;
   background: #fff;
   overflow: hidden;
-  z-index: 9;
-  margin-top: 30px;
   margin-bottom: 30px;
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;

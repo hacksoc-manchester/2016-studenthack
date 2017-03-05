@@ -8,8 +8,23 @@
 				                        <h3>{{ with .Site.Params.location.description }}{{ . | markdownify }}{{ end }}</h3>
 				                </div>
 			                </div>
-			        </div>
-		        </div>
+                                </div>
+                        </div>
+                        <div class="row">
+                            <div class="to-animate text-center dir-title">
+                                <h2>Directions</h2>
+                            </div>
+                        </div>
+                        <div class="row ">
+                                {{ range .Site.Params.location.option }}
+                                <div class="row text-center to-animate dir-content">
+                                        <span>{{ .titl }}</span>
+                                        {{ range .desc }}
+                                            <p>{{ . | markdownify}}</p>
+                                        {{ end }}
+                                </div>
+                                {{ end }}
+                        </div>
 		        {{ if .Site.Params.location.map }}
         	        <div id="map" class="to-animate"></div>
 		        {{ end }}
