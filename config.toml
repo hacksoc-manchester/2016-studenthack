@@ -278,9 +278,9 @@ theme = "hugo-elate-theme"
       link = "https://www.codethink.co.uk/"
     
     [[params.sponsors.bronze]]
-      img = ""
-      alt = "" 
-      link = ""
+      img = "floss.png"
+      alt = "Floss" 
+      link = "https://www.flossuk.org/"
 
     [[params.sponsors.bronze]]
       img = "telcom.png"
@@ -330,18 +330,18 @@ theme = "hugo-elate-theme"
     description = "The Landing, Blue, MediaCityUK, M50 2ST, Manchester, UK"
 
     [[params.location.option]]
-	titl = "Option1"
+	titl = "Option 1"
 	desc = ["From Manchester Airport, take the tram towards Deansgate/Castlefield until the Cornbrook station",
 		"Then change for the MediaCityUK tram and go until the last station. (total cost: £6.20)"]
     [[params.location.option]]
-	titl = "Option2"
+	titl = "Option 2"
 	desc = ["From Manchester Airport take the train to Manchester Piccadilly (£5)",
 		"From Manchester Piccadilly station, go downstairs to the tram station and take the tram to MediaCityUK. (£2.8 single / £3.90 return)"]
     [[params.location.option]]
 	titl = "Useful links and information"
 	desc = ["A volunteer will be in the MediaCityUK tram station, providing directions to the venue (aprox 3 min walk)",
    		'<a href="http://www.manchesterairport.co.uk/to-and-from-the-airport/metrolink/">To and from the airport - Metrolink</a>',
-    		'<a href="http://www.metrolink.co.uk/stationinfo/Documents/Route_Map.pdf">Metroling - Route map</a>',
+    		'<a href="http://www.metrolink.co.uk/stationinfo/Documents/Route_Map.pdf">Metrolink - Route map</a>',
     		'You can buy your ticket in advance or check ticket prices on <a href="http://www.metrolink.co.uk/tickets/Pages/ticketselector.aspx">Metrolink</a>']
 
   # Counters section
