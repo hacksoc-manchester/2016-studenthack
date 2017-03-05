@@ -1,11 +1,12 @@
 # Page settings
-baseurl = "localhost:1313"
+baseurl = "http://localhost:1313/"
 title = "StudentHack V"
+publishdir = "public"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
 
 [params]
-  custom_css = ["css/custom1.css"]
+  custom_css = "css/custom1.css"
 
   # Meta
   author = "StudentHack V"
@@ -22,18 +23,20 @@ theme = "hugo-elate-theme"
     chart = "Attendance"
     location = "Location"
     contact = "Get In Touch"
+    challenges = "Challenges"
 
+    # postpended links
+    [[menu.postpend]]
+      url = "/challenges"
+      name = "Challenges"
+      weight = 10
+ 
     # prepended links
     #[[menu.prepend]]
     #  url = "http://gohugo.io"
     #  name = "Hugo"
     #  weight = 10
 
-    # postpended links
-    #[[menu.postpend]]
-    #  url = " "
-    #  name = " "
-    #  weight = 10
 
   # Hero section
   [params.hero]
@@ -321,6 +324,21 @@ theme = "hugo-elate-theme"
     title = "Location"
     description = "The Landing, Blue, MediaCityUK, M50 2ST, Manchester, UK"
 
+    [[params.location.option]]
+	titl = "Option1"
+	desc = ["From Manchester Airport, take the tram towards Deansgate/Castlefield until the Cornbrook station",
+		"Then change for the MediaCityUK tram and go until the last station. (total cost: £6.20)"]
+    [[params.location.option]]
+	titl = "Option2"
+	desc = ["From Manchester Airport take the train to Manchester Piccadilly (£5)",
+		"From Manchester Piccadilly station, go downstairs to the tram station and take the tram to MediaCityUK. (£2.8 single / £3.90 return)"]
+    [[params.location.option]]
+	titl = "Useful links and information:"
+	desc = ["A volunteer will be in the MediaCityUK tram station, providing directions to the venue (aprox 3 min walk)",
+   		'<a href="http://www.manchesterairport.co.uk/to-and-from-the-airport/metrolink/">To and from the airport - Metrolink</a>',
+    		'<a href="http://www.metrolink.co.uk/stationinfo/Documents/Route_Map.pdf">Metroling - Route map</a>',
+    		'You can buy your ticket in advance or check ticket prices on <a href="http://www.metrolink.co.uk/tickets/Pages/ticketselector.aspx">Metrolink</a>']
+
   # Counters section
   [params.counters]
     enable = false
@@ -358,6 +376,11 @@ theme = "hugo-elate-theme"
       to = 420
       interval = 50
       speed = 5000
+
+  # Challenges section
+  [params.challenges]
+    enable = false
+    title = "Challenges"
 
   # Contact section
   [params.contact]
