@@ -306,6 +306,41 @@ theme = "hugo-elate-theme"
       img = "google.png"
       alt = "Google"
       link = "https://get.google.com/tango/"
+      
+    [[params.sponsors.hardware]]
+      img = "thalmic.png"
+      alt = "ThalmicLabs"
+      link = "https://www.thalmic.com/"
+
+    [[params.sponsors.hardware]]
+      img = "pebble.png"
+      alt = "Pebble"
+      link = "https://www.pebble.com/"
+
+    [[params.sponsors.hardware]]
+      img = "leap.png"
+      alt = "LeapMotion"
+      link = "https://www.leapmotion.com/"
+
+    [[params.sponsors.hardware]]
+      img = "oculus.png"
+      alt = "OculusVr"
+      link = "https://www.oculus.com"
+
+    [[params.sponsors.hardware]]
+      img = "muse.png"
+      alt = "Muse"
+      link = "http://www.choosemuse.com/"
+
+    [[params.sponsors.hardware]]
+      img = ""
+      alt = ""
+      link = ""
+
+    [[params.sponsors.hardware]]
+      img = "estimote.png"
+      alt = "Estimote"
+      link = "https://estimote.com/"
 
     [[params.sponsors.partner]]
       img = "monzo.png"
@@ -403,4 +438,4 @@ theme = "hugo-elate-theme"
   # Footer section
   [params.footer]
     enable = true
-    copyright = '&copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a> <br> Edited By  <a href="http://hacksoc.com/" target="_blank">HackSoc</a> Dev Team'
+    copyright = '&copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a> <br> Adapted By  <a href="http://hacksoc.com/" target="_blank">HackSoc</a> Dev Team'
