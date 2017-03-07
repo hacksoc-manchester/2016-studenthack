@@ -313,11 +313,6 @@ theme = "hugo-elate-theme"
       link = "https://www.thalmic.com/"
 
     [[params.sponsors.hardware]]
-      img = "pebble.png"
-      alt = "Pebble"
-      link = "https://www.pebble.com/"
-
-    [[params.sponsors.hardware]]
       img = "leap.png"
       alt = "LeapMotion"
       link = "https://www.leapmotion.com/"
@@ -333,9 +328,19 @@ theme = "hugo-elate-theme"
       link = "http://www.choosemuse.com/"
 
     [[params.sponsors.hardware]]
-      img = ""
-      alt = ""
-      link = ""
+      img = "wizdish.png"
+      alt = "WizdishRovr"
+      link = "http://www.wizdish.com/"
+
+    [[params.sponsors.hardware]]
+      img = "digilab.png"
+      alt = "DigiLab"
+      link = "http://www.library.manchester.ac.uk/using-the-library/students/initiatives/digilab/"
+
+    [[params.sponsors.hardware]]
+      img = "ultrahaptics.png"
+      alt = "UltraHaptics"
+      link = "https://www.ultrahaptics.com/"
 
     [[params.sponsors.hardware]]
       img = "estimote.png"
