@@ -12,7 +12,7 @@ $(function () {
             "University of Birmingham",
             "City University of London"
         ],
-        barHeights: [237, 59, 24, 22, 17, 13, 10],
+        barHeights: [257, 59, 24, 25, 20, 13, 11],
         colours: [
             'rgba(255, 255, 255, 1)',
             'rgba(255, 255, 255, 1)',

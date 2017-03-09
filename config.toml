@@ -1,11 +1,12 @@
 # Page settings
-baseurl = "localhost:1313"
+baseurl = "https://www.studenthack.com"
 title = "StudentHack V"
+publishdir = "public"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
 
 [params]
-  custom_css = ["css/custom1.css"]
+  custom_css = "css/custom1.css"
 
   # Meta
   author = "StudentHack V"
@@ -22,18 +23,20 @@ theme = "hugo-elate-theme"
     chart = "Attendance"
     location = "Location"
     contact = "Get In Touch"
+    challenges = "Challenges"
 
+    # postpended links
+    #[[menu.postpend]]
+    #  url = "/challenges"
+    #  name = "Challenges"
+    #  weight = 10
+ 
     # prepended links
     #[[menu.prepend]]
     #  url = "http://gohugo.io"
     #  name = "Hugo"
     #  weight = 10
 
-    # postpended links
-    #[[menu.postpend]]
-    #  url = " "
-    #  name = " "
-    #  weight = 10
 
   # Hero section
   [params.hero]
@@ -254,6 +257,11 @@ theme = "hugo-elate-theme"
       alt = "WebApplicationsUk"
       link = "https://www.webapplicationsuk.com"
 
+    [[params.sponsors.track]]
+      img = "barclays.png"
+      alt = "Barclays"
+      link = "https://www.home.barclays/"
+
     [[params.sponsors.gold]]
       img = "cakesol.png"
       alt = "Cake Solutions"
@@ -268,21 +276,26 @@ theme = "hugo-elate-theme"
       img = "codethink.png"
       alt = "Codethink"
       link = "https://www.codethink.co.uk/"
+    
+    [[params.sponsors.bronze]]
+      img = "floss.png"
+      alt = "Floss" 
+      link = "https://www.flossuk.org/"
 
+    [[params.sponsors.bronze]]
+      img = "telcom.png"
+      alt = "Telcom"
+      link = "https://telcom.io"
+      
     [[params.sponsors.bronze]]
       img = "noma.png"
       alt = "Noma"
       link = "https://www.noma-manchester.com"
 
     [[params.sponsors.bronze]]
-      img = "telcom.png"
-      alt = "Telcom"
-      link = "https://telcom.io"
-
-    [[params.sponsors.bronze]]
-      img = ""
-      alt = ""
-      link = ""
+      img = "space48.png"
+      alt = "Space 48"
+      link = "https://www.space48.com"
 
     [[params.sponsors.bronze]]
       img = "morgans.png"
@@ -293,6 +306,46 @@ theme = "hugo-elate-theme"
       img = "google.png"
       alt = "Google"
       link = "https://get.google.com/tango/"
+      
+    [[params.sponsors.hardware]]
+      img = "thalmic.png"
+      alt = "ThalmicLabs"
+      link = "https://www.thalmic.com/"
+
+    [[params.sponsors.hardware]]
+      img = "leap.png"
+      alt = "LeapMotion"
+      link = "https://www.leapmotion.com/"
+
+    [[params.sponsors.hardware]]
+      img = "oculus.png"
+      alt = "OculusVr"
+      link = "https://www.oculus.com"
+
+    [[params.sponsors.hardware]]
+      img = "muse.png"
+      alt = "Muse"
+      link = "http://www.choosemuse.com/"
+
+    [[params.sponsors.hardware]]
+      img = "wizdish.png"
+      alt = "WizdishRovr"
+      link = "http://www.wizdish.com/"
+
+    [[params.sponsors.hardware]]
+      img = "digilab.png"
+      alt = "DigiLab"
+      link = "http://www.library.manchester.ac.uk/using-the-library/students/initiatives/digilab/"
+
+    [[params.sponsors.hardware]]
+      img = "ultrahaptics.png"
+      alt = "UltraHaptics"
+      link = "https://www.ultrahaptics.com/"
+
+    [[params.sponsors.hardware]]
+      img = "estimote.png"
+      alt = "Estimote"
+      link = "https://estimote.com/"
 
     [[params.sponsors.partner]]
       img = "monzo.png"
@@ -315,6 +368,21 @@ theme = "hugo-elate-theme"
     map = true
     title = "Location"
     description = "The Landing, Blue, MediaCityUK, M50 2ST, Manchester, UK"
+
+    [[params.location.option]]
+	titl = "Option 1"
+	desc = ["From Manchester Airport, take the tram towards Deansgate/Castlefield until the Cornbrook station",
+		"Then change for the MediaCityUK tram and go until the last station. (total cost: £6.20)"]
+    [[params.location.option]]
+	titl = "Option 2"
+	desc = ["From Manchester Airport take the train to Manchester Piccadilly (£5)",
+		"From Manchester Piccadilly station, go downstairs to the tram station and take the tram to MediaCityUK. (£2.8 single / £3.90 return)"]
+    [[params.location.option]]
+	titl = "Useful links and information"
+	desc = ["A volunteer will be in the MediaCityUK tram station, providing directions to the venue (aprox 3 min walk)",
+   		'<a href="http://www.manchesterairport.co.uk/to-and-from-the-airport/metrolink/">To and from the airport - Metrolink</a>',
+    		'<a href="http://www.metrolink.co.uk/stationinfo/Documents/Route_Map.pdf">Metrolink - Route map</a>',
+    		'You can buy your ticket in advance or check ticket prices on <a href="http://www.metrolink.co.uk/tickets/Pages/ticketselector.aspx">Metrolink</a>']
 
   # Counters section
   [params.counters]
@@ -354,6 +422,10 @@ theme = "hugo-elate-theme"
       interval = 50
       speed = 5000
 
+  # Challenges section
+  [params.challenges]
+    title = "Challenges"
+
   # Contact section
   [params.contact]
     enable = false
@@ -371,4 +443,4 @@ theme = "hugo-elate-theme"
   # Footer section
   [params.footer]
     enable = true
-    copyright = '&copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a> <br> Edited By  <a href="http://hacksoc.com/" target="_blank">HackSoc</a> Dev Team'
+    copyright = '&copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a> <br> Adapted By  <a href="http://hacksoc.com/" target="_blank">HackSoc</a> Dev Team'

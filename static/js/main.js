@@ -503,14 +503,51 @@
 
 		}
 	};
+	
+        var challengesAnimate = function() {
+		var challenges = $('#fh5co-challenges');
+		if ( challenges.length > 0 ) {
+
+			challenges.waypoint( function( direction ) {
+
+				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
+
+					var sec = challenges.find('.to-animate').length,
+						sec = parseInt((sec * 100) + 400);
+
+					setTimeout(function() {
+						challenges.find('.to-animate').each(function( k ) {
+							var el = $(this);
+
+							setTimeout ( function () {
+								el.addClass('fadeInUp animated');
+							},  k * 200, 'easeInOutExpo' );
+
+						});
+					}, 200);
+
+					setTimeout(function() {
+						challenges.find('.to-animate-2').each(function( k ) {
+							var el = $(this);
+
+							setTimeout ( function () {
+								el.addClass('bounceIn animated');
+							},  k * 200, 'easeInOutExpo' );
+
+						});
+					}, sec);
 
 
-	
-	
+
+					$(this.element).addClass('animated');
+
+				}
+			} , { offset: '80%' } );
+
+		}
+	};
 
 
-	
-	
 
 	// Document on load.
 	$(function(){
@@ -539,6 +576,7 @@
 		locationAnimate();
 		countersAnimate();
 		contactAnimate();
+		challengesAnimate();
 		
 
 	});
