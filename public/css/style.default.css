@@ -5753,8 +5753,9 @@ body, input, select, button {
   margin-bottom: 2.5em;
   right: -1px;
   height: 100%;
-  background-position: 50%;
-  background-size: cover; }
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
 .content-date {
   padding-top: 3.7em; }
 

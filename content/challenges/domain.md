@@ -1,7 +1,7 @@
 +++
 showonlyimage = true
 draft = false
-image = "img/portofolio/domain.jpg"
+image = "img/portfolio/domain.jpg"
 date = "2016-11-05T18:25:22+05:30"
 title = "Domain.com"
 weight = 14
