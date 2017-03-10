@@ -8,5 +8,3 @@ weight = 11
 description = "Something"
 +++
 Best Education hack using Hololens
-<!--more-->
-

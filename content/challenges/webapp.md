@@ -8,5 +8,4 @@ weight = 5
 description = "Something"
 +++
 Build a game with a travel theme.
-<!--more-->
 

@@ -8,4 +8,3 @@ weight = 4
 description = "Something"
 +++
 The coolest and craziest Bot, Integration or Bridge you can think of on top of Matrix.
-<!--more-->

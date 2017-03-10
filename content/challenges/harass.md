@@ -8,5 +8,3 @@ weight = 12
 description = "Something"
 +++
 Use your tech skills for good and hack online harassment. Build a software solution that can help reduce the frequency and/or severity of online harassment. Win a HackHarassment power bank.
-<!--more-->
-

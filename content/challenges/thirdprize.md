@@ -7,5 +7,4 @@ title = "3rd Prize"
 weight = 3
 description = "Something"
 +++
-
-<!--more-->
+Best Hack.

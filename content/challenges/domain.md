@@ -8,5 +8,3 @@ weight = 14
 description = "Something"
 +++
 Best Domain Name from Domain.com
-<!--more-->
-

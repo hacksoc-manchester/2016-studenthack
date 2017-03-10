@@ -8,5 +8,4 @@ weight = 13
 description = "Something"
 +++
 Best Use of AWS
-<!--more-->
 

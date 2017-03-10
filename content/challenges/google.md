@@ -8,5 +8,3 @@ weight = 10
 description = "Something"
 +++
 Best use of Google Project tango
-<!--more-->
-
