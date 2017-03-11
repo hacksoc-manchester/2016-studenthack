@@ -1,0 +1,170 @@
+.logo {
+  background: url(../images/shlogo.png) no-repeat;
+  background-size: 200px 200px;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 100px;
+  display: inline-block;
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    margin-bottom: 25px;
+  }
+}
+
+.btn-push {
+  position: relative;
+  top: 0px;
+  font-family: Ubuntu;
+  text-decoration: none;
+  font-size: 25px;
+  background: #f7f7f7;
+  padding: 15px 50px;
+  margin: 0 10px;
+  border: 1px solid #c4c4c4;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  color: #222;
+  text-shadow: 1px 1px 1px #fff;
+  -webkit-transition: All 250ms ease;
+  -moz-transition: All 250ms ease;
+  -o-transition: All 250ms ease;
+  -ms-transition: All 250ms ease;
+  transition: All 250ms ease;
+}
+/*==========  Active State  ==========*/
+.btn-push:hover {
+  position: relative;
+  top: 5px;
+  -webkit-transition: All 250ms ease;
+  -moz-transition: All 250ms ease;
+  -o-transition: All 250ms ease;
+  -ms-transition: All 250ms ease;
+  transition: All 250ms ease;
+}
+/*==========  Navy  ==========*/
+.btn-push.navy {
+  background: #1b486d;
+  border: 1px solid #07121b;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  text-shadow: 1px 1px 1px #07121b;
+}
+
+/* Schedule Table */
+
+table a:link {
+	color: #666;
+	font-weight: bold;
+	text-decoration:none;
+}
+table a:active,
+table a:hover {
+	color: #bd5a35;
+	text-decoration:underline;
+}
+table {
+	font-family:Ubuntu;
+	color:#F6F6F6;
+	font-size:14px;
+	width:275px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 60px;
+}
+caption {
+        caption-side: top;
+        color:#F4F4F4;
+        text-align: center;
+        font-size: 22px;
+}
+table tr td {
+        border-top: 1px solid #fff;
+}
+table tr td:first-child {
+        text-align: right;
+}
+table tr td:nth-child(even) {
+        text-align: left;
+}
+table td {
+	padding:15px;
+}
+
+
+/* Challenges CSS */
+/*
+*#fh5co-challenges {
+*  overflow: hidden;
+*  position: relative;
+*  color: rgba(255, 255, 255, 0.7);
+*
+*  background: #2c539e;
+*  background: -moz-linear-gradient(top, #2c539e 0%, #2c539e 100%);
+*  background: -webkit-linear-gradient(top, #2c539e 0%,#2c539e 100%);
+*  background: linear-gradient(to bottom, #2c539e 0%,#2c539e 100%);
+*  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c539e', endColorstr='#2c539e',GradientType=0 );
+*}
+*
+*#fh5co-challenges:before, #fh5co-challenges:after {
+*  position: absolute;
+*  transform: rotate(-1.7deg);
+*  -ms-transform: rotate(-1.7deg);
+*  -webkit-transform: rotate(-1.7deg);
+*  -o-transform: rotate(-1.7deg);
+*  -moz-transform: rotate(-1.7deg);
+*  background-color: #fff;
+*  content: "";
+*  z-index: 3;
+*  display: inline-block;
+*  height: 70px;
+*  padding: 0;
+*  width: 101%;
+*}
+*
+*#fh5co-challenges:before {
+*  top: 0;
+*  margin-top: -35px;
+*}
+*
+*#fh5co-challenges:after {
+*  bottom: 0;
+*  margin-bottom: -35px;
+*}
+*/
+
+
+.dir-title h2 {
+  margin: 0 0 30px 0;
+  font-size: 25px;
+  font-weight: 200;
+  color: rgba(255, 255, 255, 1);
+  text-transform: uppercase;
+  position: relative;
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.dir-content span {
+  border-bottom: 1px solid #FFC966;
+  font-size: 23px;
+  color: rgba(244, 244, 244, 0.8);
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.dir-content p {
+  margin-top: 25px;
+  font-size: 20px;
+  color: rgba(146, 146, 146, 1);
+}
+
+.dir-content p a {
+  opacity: 0.7;
+}
