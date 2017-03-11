@@ -131,7 +131,8 @@ body, input, select, button {
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  background-position: 50%;
+  background-repeat: no-repeat;
+  background-position: contain;
   background-size: cover;
   &:hover, &:active, &:focus {
     -webkit-transform: scale(1.05);
