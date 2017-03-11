@@ -99,23 +99,6 @@ theme = "hugo-elate-theme"
     enable = true
     title = "Schedule"
 
-    [[params.schedule.friday]]
-      time = "18:00"
-      name = "Registration opens"
-
-    [[params.schedule.friday]]
-      time = "19:00"
-      name = "Dinner"
-
-    [[params.schedule.friday]]
-      time = "20:30"
-      name = "Opening ceremony"
-
-    [[params.schedule.friday]]
-      time = "22:00"
-      name = "Hacking starts<br>Team forming session"
-
-
     [[params.schedule.saturday]]
       time = "00:00"
       name = "Midnight snack"
@@ -126,37 +109,57 @@ theme = "hugo-elate-theme"
 
     [[params.schedule.saturday]]
       time = "11:30"
-      name = "-- Interviews Sessions --"
+      name = "Twilio Workshop"
 
     [[params.schedule.saturday]]
-      time = ""
-      name = "-- Workshops --"
+      time = "11:30"
+      name = "Barclays Interview"
+
+    [[params.schedule.saturday]]
+      time = "12:15"
+      name = "Matrix Workshop"
 
     [[params.schedule.saturday]]
       time = "13:00"
       name = "Lunch"
 
     [[params.schedule.saturday]]
-      time = ""
-      name = "-- Workshops --"
-
-    [[params.schedule.saturday]]
-      time = "16:30"
+      time = "14:30"
       name = "Cake Solutions Workshop"
 
     [[params.schedule.saturday]]
+      time = "14:30"
+      name = "Accenture Interview"
+
+    [[params.schedule.saturday2]]
+      time = "15:15"
+      name = "Barclays Workshop"
+
+    [[params.schedule.saturday2]]
+      time = "16:00"
+      name = "Accenture Workshop"
+
+    [[params.schedule.saturday2]]
+      time = "16:30"
+      name = "Cake Solutions Mini-event"
+
+    [[params.schedule.saturday2]]
       time = "18:00"
       name = "Pivot session"
 
-    [[params.schedule.saturday]]
+    [[params.schedule.saturday2]]
       time = "19:00"
       name = "Dinner"
 
-    [[params.schedule.saturday]]
+    [[params.schedule.saturday2]]
       time = "21:00"
       name = "MLH event"
 
-    [[params.schedule.saturday]]
+    [[params.schedule.saturday2]]
+      time = "22:45"
+      name = "Security Workshop"
+
+    [[params.schedule.saturday2]]
       time = "23:30"
       name = "Stickers board"
 

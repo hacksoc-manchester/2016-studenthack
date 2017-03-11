@@ -8,9 +8,9 @@
 			<div class="row">
 			        <div class="col-md-4 to-animate">
                                         <table cellspacing='0'>
-                                                <caption>Friday</caption>
+                                                <caption>Saturday</caption>
                                                 <tbody>
-			                        {{ range .Site.Params.schedule.friday }}
+			                        {{ range .Site.Params.schedule.saturday }}
 		                                        <tr>
                                                                 <td>{{ .time | markdownify}}</td>
                                                                 <td>{{ .name | markdownify}}</td>
@@ -24,7 +24,7 @@
                                         <table cellspacing='0'>
                                                 <caption>Saturday</caption>
                                                 <tbody>
-			                        {{ range .Site.Params.schedule.saturday }}
+			                        {{ range .Site.Params.schedule.saturday2 }}
 		                                        <tr>
                                                                 <td>{{ .time | markdownify}}</td>
                                                                 <td>{{ .name | markdownify}}</td>
